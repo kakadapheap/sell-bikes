@@ -5,14 +5,159 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>homesection</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="homesection">
-        <div class="menubar">
-            <div class="log"></div>
-            <div class=""></div>
-            <div class="log"></div>
+    <div class="homesection container-fluid bg-body-secondary">
+        <!-- Navbar -->
+        <div class="menubar navbar navbar-expand-lg navbar-light bg-body-secondary">
+            <a class="navbar-brand" href="#">
+                <img src="/assets/logo.png" alt="Bike" width="80" height="60">
+            </a>
+            <h2 style="color: #F2994A;font-size: 30px; font-family: Gelasio; font-weight: bold;">AVENTON</h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav"
+                style="font-size: 20px; font-family: Gelasio; font-weight: bold;">
+                <ul class="navbar-nav ms-auto nav-underline">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #F2994A;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #F2994A;">Bikes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #F2994A;">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #F2994A;">Payment</a>
+                    </li>
+                </ul>
+                <form class="d-flex ms-lg-3" role="search">
+                    <input class="form-control me-lg-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Hero Image -->
+        <img src="/assets/Home-Accessories-desktop.avif" class="img-fluid w-100" alt="">
+
+        <!-- Introduction Section -->
+        <h1 class="text-center mt-4" style="font-family: Gelasio;">What is <a class="text-decoration-none"
+                style="color: #E2B93B;">AVENTON?</a></h1>
+        <p class="text-center mt-4" style="font-family: Gelasio; font-size: 16px;">
+            Aventon's story is simple - less talk, more do! Aventon concentrates on superior quality, better attention
+            to detail, and hands-on manufacturing. Set up in 2013, JW (Aventon's Creator) built an entry-level fixed
+            frame with a third-party supplier. A year later, unhappy with their work, he set up his own factory, and
+            today, with over 100 employees, Aventon builds brilliant Single Speed/Fixed, Gravel, and E-bikes. Always
+            innovating and creating bikes that are accessible and affordable, Aventon is the go-to brand for riders who
+            want something different. We stock the full range of their fixed/single-speed bikes as well as the Kijote
+            gravel bike and other Aventon spare parts.
+        </p>
+
+        <!-- Recommended Section -->
+        <h2 class="text-center mb-4" style="color: #E2B93B; font-family: Gelasio; font-size: 24px; font-weight: bold;">
+            Recommended for you
+        </h2>
+        <!-- Item 1 -->
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+            <div class="col">
+                <div class="card h-100 border-1" style="border-radius: 10px;">
+                    <img src="/assets/it1.png" class="card-img-top" alt="AVENTON BATTERY">
+                    <div class="card-body">
+                        <h5 class="text-center"
+                            style="color: #E2B93B; font-family: Gelasio; font-size: 20px; font-weight: bold;">AVENTON
+                            BATTERY</h5>
+                        <h2 class="text-center" style="font-family: Gelasio; font-size: 24px;">$499</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border-1" style="border-radius: 10px;">
+                    <img src="/assets/it2.png" class="card-img-top" alt="AVENTON HITCH RACK">
+                    <div class="card-body">
+                        <h5 class="text-center"
+                            style="color: #E2B93B; font-family: Gelasio; font-size: 20px; font-weight: bold;">AVENTON
+                            HITCH RACK</h5>
+                        <h2 class="text-center" style="font-family: Gelasio;font-size: 24px;">$399.99</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border-1" style="border-radius: 10px;">
+                    <img src="/assets/it3.png" class="card-img-top" alt="AVENTON FANTTIK">
+                    <div class="card-body">
+                        <h5 class="text-center"
+                            style="color: #E2B93B; font-family: Gelasio; font-size: 20px; font-weight: bold;">AVENTON
+                            FANTTIK</h5>
+                        <h2 class="text-center" style="font-family: Gelasio; font-size: 24px;">$99.99</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border-1" style="border-radius: 10px;">
+                    <img src="/assets/it4.png" class="card-img-top" alt="AVENTON CHAIN LOCK">
+                    <div class="card-body">
+                        <h5 class="text-center"
+                            style="color: #E2B93B; font-family: Gelasio; font-size: 20px; font-weight: bold;">AVENTON
+                            CHAIN LOCK</h5>
+                        <h2 class="text-center" style="font-family: Gelasio; font-size: 24px;">$79.99</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Item Row -->
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 mt-4">
+            <div class="col">
+                <div class="card h-100 border-1" style="border-radius: 10px;">
+                    <img src="/assets/it5.png" class="card-img-top" alt="WATER BOTTLE CAGE">
+                    <div class="card-body">
+                        <h5 class="text-center"
+                            style="color: #E2B93B;font-family: Gelasio; font-size: 20px; font-weight: bold;">WATER
+                            BOTTLE CAGE</h5>
+                        <h2 class="text-center" style="font-family: Gelasio; font-size: 24px;">$41.99</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border-1" style="border-radius: 10px;">
+                    <img src="/assets/it6.png" class="card-img-top" alt="PHONE HOLDER LARGE">
+                    <div class="card-body">
+                        <h5 class="text-center"
+                            style="color: #E2B93B; font-family: Gelasio; font-size: 20px; font-weight: bold;">PHONE
+                            HOLDER LARGE</h5>
+                        <h2 class="text-center" style="font-family: Gelasio; font-size: 24px;">$18.99</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border-1" style="border-radius: 10px;">
+                    <img src="/assets/it7.png" class="card-img-top" alt="AVENTON FOLDABLE LOCK">
+                    <div class="card-body">
+                        <h5 class="text-center"
+                            style="color: #E2B93B;font-family: Gelasio; font-size: 20px; font-weight: bold;">AVENTON
+                            FOLDABLE LOCK</h5>
+                        <h2 class="text-center" style="font-family: Gelasio; font-size: 24px;">$66.99</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border-1" style="border-radius: 10px;">
+                    <img src="/assets/it8.png" class="card-img-top" alt="SUSPENSION SEATPOSE">
+                    <div class="card-body">
+                        <h5 class="text-center"
+                            style="color: #E2B93B; font-family: Gelasio; font-size: 20px; font-weight: bold;">
+                            SUSPENSION SEATPOSE</h5>
+                        <h2 class="text-center" style="font-family: Gelasio; font-size: 24px;">$137.99</h2>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
